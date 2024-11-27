@@ -3,6 +3,8 @@
 #include <stddef.h>
 #include <sys/types.h>
 
+#define STDOUT_FILENO   1
+
 ssize_t
 write (int fd, const void *buff, size_t count);
 
