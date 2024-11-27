@@ -1,8 +1,8 @@
 #pragma once
 
-// Architecture-specific
+// reuse kernel header
 
-#include <linux_sysnr.h>
+#include <linux/unistd.h>
 
 // see i386/syscall.S
 
