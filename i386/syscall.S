@@ -10,7 +10,7 @@ slibc_syscall1:
 #ifdef NO_SNOW
 	int	$0x80			/* result saved into eax */
 #else
-	calll	*%fs:0xc0		/* result saved into eax */
+	call	*%fs:0xc0		/* result saved into eax */
 #endif
 	popl	%ebx			/* callee-saved */
 	popl	%ebp
@@ -29,7 +29,7 @@ slibc_syscall3:
 #ifdef NO_SNOW
 	int	$0x80			/* result saved into eax */
 #else
-	calll	*%fs:0xc0		/* result saved into eax */
+	call	*%fs:0xc0		/* result saved into eax */
 #endif
 	popl	%ebx			/* callee-saved */
 	popl	%ebp
