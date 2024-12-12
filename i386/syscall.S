@@ -1,6 +1,4 @@
-.text
 .global slibc_syscall1
-.type slibc_syscall1, @function
 slibc_syscall1:
 	pushl	%ebp
 	movl	%esp, %ebp
@@ -17,7 +15,6 @@ slibc_syscall1:
 	ret
 
 .global slibc_syscall3
-.type slibc_syscall3, @function
 slibc_syscall3:
 	pushl	%ebp
 	movl	%esp, %ebp
