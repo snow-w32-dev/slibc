@@ -5,7 +5,7 @@ slibc_user_main (int argc, char **argv);
 
 // first function in C
 // called from _start
-__attribute__((__noreturn__)) void
+__attribute__((noreturn)) void
 slibc_start (void *orig_esp)
 {
   long argc;
