@@ -48,6 +48,7 @@ slibc_crt0.o: $(CRT0_OBJS)
 	$(CC) $(CFLAGS) -r $^ -o $@
 
 slibc.a: $(SLIBC_OBJS)
+	rm -f $@
 	$(AR) rcs $@ $^
 
 clean:
