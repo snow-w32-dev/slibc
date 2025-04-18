@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 int
-slibc_user_main (int argc, char **argv);
+slibc_user_main (int argc, char *argv[]);
 
 // first function in C
 // called from _start
