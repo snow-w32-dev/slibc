@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GLWTPL
+
 #include <string.h>
 
 size_t

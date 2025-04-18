@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GLWTPL
+
 #pragma once
 
 #include <stddef.h>

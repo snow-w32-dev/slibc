@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GLWTPL
+
 #include <unistd.h>
 
 int

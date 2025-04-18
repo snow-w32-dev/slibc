@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: GLWTPL */
+
 .text
 .global _start
 .type _start, @function

@@ -1,3 +1,5 @@
+/* SPDX-License-Identifier: GLWTPL */
+
 .text
 .global slibc_syscall1
 .type slibc_syscall1, @function

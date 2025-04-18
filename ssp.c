@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GLWTPL
+
 __attribute__((noreturn, weak)) void
 __stack_chk_fail (void)
 {

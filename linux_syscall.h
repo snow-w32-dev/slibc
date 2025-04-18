@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GLWTPL
+
 #pragma once
 
 // reuse kernel header
