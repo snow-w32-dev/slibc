@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: GLWTPL
 
+#include <stddef.h>
 #include <unistd.h>
+
+__attribute__((weak)) size_t __stack_chk_guard;
 
 __attribute__((noreturn, weak)) void
 __stack_chk_fail (void)
